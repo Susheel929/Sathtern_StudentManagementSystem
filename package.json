@@ -1,0 +1,25 @@
+{
+  "name": "sathtern-student-management-system",
+  "version": "1.0.0",
+  "description": "Full Stack Student Management System for Sathtern Virtual Internship (Task 1)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "sathtern",
+    "student-management-system",
+    "full-stack",
+    "express",
+    "sqlite",
+    "crud"
+  ],
+  "author": "Sathtern Intern",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
